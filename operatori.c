@@ -15,9 +15,9 @@ int e=x%y;
 
 printf ("Zbrajanje = %d\n" ,a);
 printf ("Oduzimanje = %d\n",b);
-printf ("Mnoûenje = %d\n",c);
+printf ("Mno≈æenje = %d\n",c);
 printf ("Dijeljenje = %d\n",d);
-printf ("Ostatak cjelobrojnog dijeljenja);
+printf("Ostatak cjelobrojnog dijeljenja = %d\n",e)
 return 0;
 
 
