@@ -1,7 +1,7 @@
 #include <stdio.hr>
 #include <stdlib.h>
 
-int()
+int main()
 {
 
     printf (" 4 > 6 -> %d.\n", (4>6));
