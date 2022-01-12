@@ -11,7 +11,7 @@ int main()
     scanf("%d", &a);
     scanf("%d", &b);
 
-    printf("površina trokuta je = %d\n", ((a*b*c));
+    printf("povrsinaTrokuta = %d\n", (a*b)/2);
     return 0;
 
 
