@@ -19,6 +19,6 @@ int main(){
 	
 	printf("%d", Zbroj(n));
 	return 0;
-	
+}
 	
 	
