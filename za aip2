@@ -1,0 +1,82 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+#include<string.h>
+#include<conio.h>
+
+
+struct zecic{
+	int masa;
+	int kolicina_hrane;
+	int darezljivost;
+	char ime[1500];
+	
+}ze;
+
+
+void unos(){
+	FILE*filePointer;
+	filePointer=fopen("zecic.txt","a");
+	
+	printf("Koliko je tezak zecic?\n");
+	scanf("%d", &ze.masa);
+	printf("Koliko kolicine hrane pojede zecic?\n");
+	scanf("%d", &ze.kolicina_hrane);
+	printf("Kolika je zeciceva darezljivost?\n");
+	scanf("%d", &ze.darezljivost);
+	printf("Koje je ime zecica?\n");
+	scanf("%s", &ze.ime);	
+
+    fprintf(filePointer, "%d %d %d %s\n",ze.masa, ze.kolicina_hrane, ze.darezljivost, ze.ime);
+    fclose(filePointer);
+}
+	
+void ispis(){
+	
+	file*filePointer;
+	filePointer=fopen("zecic.txt","a");
+	
+	while(fscanf(filePointer, "%d %d %d %s", ze.masa, ze.kolicina_hrane, ze.darezljivost, ze.ime==4){
+	printf(" %d %d %d %s\n\n", ze.masa, ze.kolicina_hrane, ze.darezljivost, ze.ime);
+	fclose(filePointer);
+	
+	}
+	
+	
+}
+	
+int main(){
+	
+	char odabir;
+	
+do{
+
+    printf("1. Unos \n");
+    printf("2. Ispis\n");
+    printf("3. Filter\n");
+    printf("4. Komb filtera\n");
+    printf("5. Max i min,najisplativiji\n");
+    printf("6. exit\n");
+	
+	odabir=getch();
+
+    switch (odabir){
+    	case '1': unos();
+    	break;
+    	case '2': ispis();
+    	break;
+	 }
+}while (odabir!='6');
+
+	
+	}
+	
+	
+
+	
+	
+}
+
+
+
+
