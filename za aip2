@@ -5,7 +5,7 @@
 #include<conio.h>
 
 
-struct zecic{
+struct zecic{                                                      //Char-rijeci,a int-broj
 	int masa;
 	int kolicina_hrane;
 	int darezljivost;
