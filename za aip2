@@ -33,10 +33,10 @@ void unos(){
 	
 void ispis(){
 	
-	file*filePointer;
+	FILE*filePointer;
 	filePointer=fopen("zecic.txt","a");
 	
-	while(fscanf(filePointer, "%d %d %d %s", ze.masa, ze.kolicina_hrane, ze.darezljivost, ze.ime==4){
+	while(fscanf(filePointer, "%d, %d, %d, %s", &ze.masa, &ze.kolicina_hrane, &ze.darezljivost, ze.ime)==4){
 	printf(" %d %d %d %s\n\n", ze.masa, ze.kolicina_hrane, ze.darezljivost, ze.ime);
 	fclose(filePointer);
 	
@@ -72,11 +72,3 @@ do{
 	}
 	
 	
-
-	
-	
-}
-
-
-
-
